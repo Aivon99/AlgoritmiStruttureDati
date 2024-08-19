@@ -102,7 +102,6 @@ public class Esercizio2Primo {
             for(int i = 0; i < 7; i++){
                 if(elemento.match(Lettere[i])){
                   
-                 int n = Lettere[i].length;
                  Decodificatore newElemento = new Decodificatore(elemento);
                     newElemento.rimCodice(Lettere[i].length);
                     newElemento.addLettera(lettereChar[i]);
